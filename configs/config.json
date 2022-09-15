@@ -1,0 +1,233 @@
+{
+  "flow": {
+    "callToAction": {
+      "title": "Shop Now"
+    },
+    "pages": [
+      {
+        "selectionType": "multi",
+        "cardType": "iconAndText",
+        "cardFontColor": "#000000",
+        "cardBackgroundColor": "#ffffff",
+        "backgroundColor": "#ffffff",
+        "selectedBorderColor": "#C7A17A",
+        "title": {
+          "text": "HOW DO YOU MAKE YOUR COFFEE?",
+          "fontFamily": "arial",
+          "color": "#000000"
+        },
+        "description": {
+          "text": "Select all that match your tastes",
+          "fontFamily": "arial",
+          "color": "#C7A17A"
+        },
+        "cards": [
+          {
+            "title": "Coffee Maker",
+            "description": "",
+            "icon": "https://i.postimg.cc/3NdKJNVV/Coffee-Maker.jpg",
+            "image": null
+          },
+          {
+            "title": "French Press",
+            "description": "",
+            "icon": "https://i.postimg.cc/hGccQpN9/French-Press.jpg",
+            "image": null
+          },
+          {
+            "title": "Pour Over",
+            "description": "",
+            "icon": "https://i.postimg.cc/yNjBm0z2/PourOver.jpg",
+            "image": null
+          },
+          {
+            "title": "Chemex",
+            "description": "",
+            "icon": "https://i.postimg.cc/nzdFJBRq/Chemex.jpg",
+            "image": null
+          },
+          {
+            "title": "Aero Press",
+            "description": "",
+            "icon": "https://i.postimg.cc/zfFDx9Tt/Aero-Press.jpg",
+            "image": null
+          },
+          {
+            "title": "Cold Brew",
+            "description": "",
+            "icon": "https://i.postimg.cc/vTkG1MdB/ColdBrew.jpg",
+            "image": null
+          },
+          {
+            "title": "Percolator",
+            "description": "",
+            "icon": "https://i.postimg.cc/QtMD0V8C/Percolator.jpg",
+            "image": null
+          },
+          {
+            "title": "Espresso Machine",
+            "description": "",
+            "icon": "https://i.postimg.cc/kMpJYNtm/Espresso-Machine.jpg",
+            "image": null
+          },
+          {
+            "title": "Moka Pot",
+            "description": "",
+            "icon": "https://i.postimg.cc/W1Ms4QYN/MokaPot.jpg",
+            "image": null
+          },
+          {
+            "title": "Refillable Pots",
+            "description": "",
+            "icon": "https://i.postimg.cc/05Fv08L5/Refillable-Pods.jpg",
+            "image": null
+          }
+        ],
+        "footer": {
+          "useIcons": false,
+          "skipButton": {
+            "fontFamily": "arial",
+            "backgroundColor": "#FFFFFF",
+            "color": "#C7A17A",
+            "borderColor": "#FFFFFF"
+          },
+          "nextButton": {
+            "fontFamily": "arial",
+            "backgroundColor": "#C7A17A",
+            "color": "#FFFFFF",
+            "borderColor": "#C7A17A"
+          },
+          "backButton": {
+            "fontFamily": "arial",
+            "backgroundColor": "#C7A17A",
+            "color": "#CCC7C6",
+            "borderColor": "#C7A17A"
+          },
+          "restartButton": {
+            "fontFamily": "arial",
+            "backgroundColor": "#FFFFFF",
+            "color": "#C7A17A",
+            "borderColor": "#C7A17A"
+          }
+        }
+      },
+      {
+        "selectionType": "single",
+        "cardType": "textAndDescription",
+        "cardFontColor": "#000000",
+        "cardBackgroundColor": "#FFFFFF",
+        "backgroundColor": "#FFFFFF",
+        "selectedBorderColor": "#C7A17A",
+        "title": {
+          "text": "HOW DO YOU MAKE YOUR COFFEE?",
+          "fontFamily": "arial",
+          "color": "#000000"
+        },
+        "description": {
+          "text": "Select all that match your tastes",
+          "fontFamily": "arial",
+          "color": "#C7A17A"
+        },
+        "cards": [
+          {
+            "title": "Smooth & Creamy",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus pulvinar nulla urna, quis diam ut gravida lobortis. Ut aliquam penatibus.",
+            "icon": null,
+            "image": null
+          },
+          {
+            "title": "Dark & Heavy",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus pulvinar nulla urna, quis diam ut gravida lobortis. Ut aliquam penatibus.",
+            "icon": null,
+            "image": null
+          },
+          {
+            "title": "Light & Bitter",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus pulvinar nulla urna, quis diam ut gravida lobortis. Ut aliquam penatibus.",
+            "icon": null,
+            "image": null
+          },
+          {
+            "title": "Floral & Fruity",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus pulvinar nulla urna, quis diam ut gravida lobortis. Ut aliquam penatibus.",
+            "icon": null,
+            "image": null
+          }
+        ],
+        "footer": {
+          "useIcons": false,
+          "skipButton": {
+            "fontFamily": "arial",
+            "backgroundColor": "#FFFFFF",
+            "color": "#C7A17A",
+            "borderColor": "#FFFFFF"
+          },
+          "nextButton": {
+            "fontFamily": "arial",
+            "backgroundColor": "#C7A17A",
+            "color": "#FFFFFF",
+            "borderColor": "#C7A17A"
+          },
+          "backButton": {
+            "fontFamily": "arial",
+            "backgroundColor": "#C7A17A",
+            "color": "#CCC7C6",
+            "borderColor": "#C7A17A"
+          },
+          "restartButton": {
+            "fontFamily": "arial",
+            "backgroundColor": "#FFFFFF",
+            "color": "#C7A17A",
+            "borderColor": "#C7A17A"
+          }
+        }
+      }
+    ],
+    "carousel": {
+      "backgroundColor": "#C7A17A",
+      "color": "#FFFFFF",
+      "fontFamily": "arial",
+      "defaultTitle": "Browse our best sellers",
+      "defaultContent": [
+        {
+          "title": "Lorem ipsum dolor sit amet, cons...",
+          "imageUrl": "https://i.postimg.cc/cJyqM2fT/Suggestion-01.jpg",
+          "ctaLink": "https://www.google.com"
+        },
+        {
+          "title": "Lorem ipsum dolor sit amet, cons...",
+          "imageUrl": "https://i.postimg.cc/5twhPg3J/Suggestion-02.jpg",
+          "ctaLink": "https://www.google.com"
+        },
+        {
+          "title": "Lorem ipsum dolor sit amet, cons...",
+          "imageUrl": "https://i.postimg.cc/5twhPg3J/Suggestion-02.jpg",
+          "ctaLink": "https://www.google.com"
+        },
+        {
+          "title": "Lorem ipsum dolor sit amet, cons...",
+          "imageUrl": "https://i.postimg.cc/5twhPg3J/Suggestion-02.jpg",
+          "ctaLink": "https://www.google.com"
+        },
+        {
+          "title": "Lorem ipsum dolor sit amet, cons...",
+          "imageUrl": "https://i.postimg.cc/5twhPg3J/Suggestion-02.jpg",
+          "ctaLink": "https://www.google.com"
+        },
+        {
+          "title": "Lorem ipsum dolor sit amet, cons...",
+          "imageUrl": "https://i.postimg.cc/5twhPg3J/Suggestion-02.jpg",
+          "ctaLink": "https://www.google.com"
+        }
+      ]
+    }
+  },
+  "launcher": {
+    "ctaText": "Shop Your Taste",
+    "closeText": "Close",
+    "color": "#FFFFFF",
+    "backgroundColor": "#C7A17A",
+    "fontFamily": "arial",
+    "fontSize": 16
+  }
+}
