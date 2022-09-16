@@ -37,5 +37,7 @@ export default {
 </script>
 
 <style>
+@import 'bootstrap/dist/css/bootstrap.css';
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import './css/style.css';
 </style>
