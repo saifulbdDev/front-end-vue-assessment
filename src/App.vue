@@ -1,25 +1,41 @@
 <template>
-  <h1 class="welcome-message" id="welcome-message">Welcome Challenger!</h1>
+  <div id="main">
+    <button
+      v-if="!isSideBar"
+      class="launcher-btn"
+      :style="launcher"
+      @click="$store.commit('records/isSideBar', true)"
+    >
+      {{ launcher?.ctaText }}
+    </button>
+    <div v-if="isSideBar" class="slidein" :class="{ 'show-sidebar': isSideBar }">
+      <right-sidebar></right-sidebar>
+    </div>
+  </div>
 </template>
 
 <script>
+import RightSidebar from '@/components/RightSidebar.vue';
 import store from '@/store';
 
 export default {
-  name: 'App',
   store,
+  name: 'App',
+  components: {
+    RightSidebar,
+  },
+
+  computed: {
+    launcher() {
+      return this.$store?.state?.records?.launcher;
+    },
+    isSideBar() {
+      return this.$store?.state?.records?.isSideBar;
+    },
+  },
 };
 </script>
 
-<style scoped>
-.welcome-message {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #ffda30;
-  font-size: 5rem;
-  margin: 0;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+<style>
+@import './css/style.css';
 </style>

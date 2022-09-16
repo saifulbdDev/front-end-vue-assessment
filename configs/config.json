@@ -23,60 +23,70 @@
         },
         "cards": [
           {
+            "id": 1,
             "title": "Coffee Maker",
             "description": "",
             "icon": "https://i.postimg.cc/3NdKJNVV/Coffee-Maker.jpg",
             "image": null
           },
           {
+            "id": 2,
             "title": "French Press",
             "description": "",
             "icon": "https://i.postimg.cc/hGccQpN9/French-Press.jpg",
             "image": null
           },
           {
+            "id": 3,
             "title": "Pour Over",
             "description": "",
             "icon": "https://i.postimg.cc/yNjBm0z2/PourOver.jpg",
             "image": null
           },
           {
+            "id": 4,
             "title": "Chemex",
             "description": "",
             "icon": "https://i.postimg.cc/nzdFJBRq/Chemex.jpg",
             "image": null
           },
           {
+            "id": 5,
             "title": "Aero Press",
             "description": "",
             "icon": "https://i.postimg.cc/zfFDx9Tt/Aero-Press.jpg",
             "image": null
           },
           {
+            "id": 6,
             "title": "Cold Brew",
             "description": "",
             "icon": "https://i.postimg.cc/vTkG1MdB/ColdBrew.jpg",
             "image": null
           },
           {
+            "id": 7,
             "title": "Percolator",
             "description": "",
             "icon": "https://i.postimg.cc/QtMD0V8C/Percolator.jpg",
             "image": null
           },
           {
+            "id": 8,
             "title": "Espresso Machine",
             "description": "",
             "icon": "https://i.postimg.cc/kMpJYNtm/Espresso-Machine.jpg",
             "image": null
           },
           {
+            "id": 9,
             "title": "Moka Pot",
             "description": "",
             "icon": "https://i.postimg.cc/W1Ms4QYN/MokaPot.jpg",
             "image": null
           },
           {
+            "id": 10,
             "title": "Refillable Pots",
             "description": "",
             "icon": "https://i.postimg.cc/05Fv08L5/Refillable-Pods.jpg",
@@ -130,24 +140,28 @@
         },
         "cards": [
           {
+            "id": 1,
             "title": "Smooth & Creamy",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus pulvinar nulla urna, quis diam ut gravida lobortis. Ut aliquam penatibus.",
             "icon": null,
             "image": null
           },
           {
+            "id": 2,
             "title": "Dark & Heavy",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus pulvinar nulla urna, quis diam ut gravida lobortis. Ut aliquam penatibus.",
             "icon": null,
             "image": null
           },
           {
+            "id": 3,
             "title": "Light & Bitter",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus pulvinar nulla urna, quis diam ut gravida lobortis. Ut aliquam penatibus.",
             "icon": null,
             "image": null
           },
           {
+            "id": 4,
             "title": "Floral & Fruity",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus pulvinar nulla urna, quis diam ut gravida lobortis. Ut aliquam penatibus.",
             "icon": null,

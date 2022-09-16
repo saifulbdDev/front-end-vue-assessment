@@ -1,0 +1,67 @@
+@import 'bootstrap/dist/css/bootstrap.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.launcher-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  margin: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 10px 30px;
+  border: #c7a17a;
+}
+.open-btn {
+  background: #c7a17a;
+  color: #ffffff !important;
+  border: #c7a17a;
+  padding: 10px 30px;
+}
+.right-card {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: -54px;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.slidein {
+  max-width: 33%;
+  width: 576px; 
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  right: -100%;
+
+  top: 0px;
+  bottom: 0px;  /* White */
+
+  background: #ffffff;
+  box-shadow: -10px 0px 32px rgba(0, 0, 0, 0.16);
+}
+.show-sidebar {
+  right: 0;
+  transition: all 0.5s cubic-bezier(1, 0.5, 0.8, 1);
+}
+
+.close-btn {
+  background: #c7a17a;
+  color: #ffffff;
+  border: #c7a17a;
+  padding: 10px 20px;
+  position: relative;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  white-space: nowrap;
+  -webkit-writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
+}
+@media (max-width: 992px) {
+  .slidein {
+    width: 350px !important;
+    top: 0 !important;
+  }
+}
